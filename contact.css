@@ -83,6 +83,10 @@
     width: 100%;
     margin-top: 10px;
 }
+.contactform .inputBox div{
+    border: 2px solid transparent;
+    transition: .4s;
+}
 .contactform .inputBox input,
 .contactform .inputBox textarea{
     width: 100%;
@@ -127,6 +131,11 @@
     font-weight: 700;
     text-align: center;
 }
+.contactform .inputBox input[type="submit"]:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
 @media(max-width:991px)
 {
     .contact
@@ -164,4 +173,9 @@ footer{
     color: #f9004d;
     bottom: 35px;
     font-size: 14px;
+}
+#msg{
+    color: #e91e63;
+    margin-top: -1px;
+    display: block;
 }
