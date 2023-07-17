@@ -32,7 +32,7 @@
                 <li><a href="works.html">Projects</a></li>
                 <li><a href="contact_me.html">Contact Me</a></li>
             </ul>
-            <a href="#" class="btn">Resume</a>
+            <a href="resume.html" class="btn">Resume</a>
         </nav>
 
         <div class="content">
@@ -59,7 +59,12 @@
                     methodologies, allowing me to effectively analyze and draw meaningful insights from
                     data.I am skilled in utilizing various data analysis tools and software, such as Python,
                     R, SQL, and Excel, to manipulate and analyze data efficiently. </p>
-                <button type="button">Let's Talk</button>
+                <button onclick="goToNextPage()" >Let's Talk</button>
+                <script>
+                    function goToNextPage() {
+                      window.location.href = "contact_me.html";
+                    }
+                  </script>
 
             </div>
         </div>
