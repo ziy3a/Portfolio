@@ -127,7 +127,7 @@ footer{
     bottom: 35px;
     font-size: 14px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .portfolio {
       padding: 50px;
     }
