@@ -178,3 +178,42 @@ footer{
     margin-top: -1px;
     display: block;
 }
+@media only screen and (max-width: 600px) 
+{
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      
+      .content {
+        text-align: left;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .contactform {
+        width: 100%;
+        max-width: 500px; /* Adjust the value as needed */
+        margin-top: 20px;
+      }
+      
+      .contactInfo .box,
+      .contactform {
+        align-self: flex-start;
+      }
+      
+      .contactform h2 {
+        text-align: left;
+      }
+      
+      .inputBox input,
+      .inputBox textarea {
+        width: 200%;
+      }
+      
+}
