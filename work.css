@@ -127,35 +127,26 @@ footer{
     bottom: 35px;
     font-size: 14px;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .portfolio {
-      padding: 30px 20px;
+      padding: 50px;
     }
-  
+    
     .portfolio h2 {
-      font-size: 32px;
-      margin-bottom: 2rem;
+      font-size: 30px;
     }
-  
+    
     .portfolio-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
-  
+    
     .portfolio-box {
-      max-width: 300px;
-      margin: 0 auto;
+      margin-bottom: 2.5rem;
     }
-  
-    .portfolio-layer {
+    
+    .portfolio-box .portfolio-layer {
       padding: 0 2rem;
     }
-  
-    .portfolio-layer h4 {
-      font-size: 2rem;
-    }
-  
-    .portfolio-layer p {
-      font-size: 1.4rem;
-    }
   }
+  
   
