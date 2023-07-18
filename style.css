@@ -277,3 +277,162 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+
+@media only screen and (max-width: 600px) {
+    .hero {
+      height: auto;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 15px 5%;
+      }
+      .logo {
+        margin-bottom: 10px;
+      }
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      nav ul li {
+        padding: 10px 0;
+      }
+      .btn {
+        margin-top: 15px;
+      }
+      .content {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: left;
+        margin-top: 20px;
+        padding: 0 8%;
+      }
+      
+      h1 {
+        font-size: 40px;
+        margin: 10px 0;
+      }
+      
+      h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      
+      h4 {
+        font-size: 16px;
+      }
+      
+      .newslatter form {
+        width: 90%;
+        max-width: 100%;
+        position: relative;
+        margin: 0 auto;
+      }
+      
+      .newslatter form input:first-child {
+        padding: 12px 15px;
+      }
+      
+      .newslatter form input:last-child {
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+      }
+      .about {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      .about-text {
+        width: 90%;
+        margin-top: 30px;
+        text-align: left;
+      }
+    
+      .about-text h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+    
+      .about-text h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+    
+      .about img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 15px;
+      }
+    
+      .about-text p {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      .service {
+        padding: 50px 0;
+      }
+    
+      .title h2 {
+        font-size: 40px;
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+      }
+      .box {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .card {
+        width: 90%;
+        max-width: 400px;
+        margin: 15px;
+      }
+      
+      .icon {
+        font-size: 40px;
+      }
+      
+      h5 {
+        font-size: 18px;
+      }
+      
+      .pra p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      
+      .card .but {
+        padding: 6px 16px;
+        font-size: 12px;
+      }
+
+    }
+
+
+  
+  
+  
+  
+  
+  
+  
