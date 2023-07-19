@@ -432,6 +432,11 @@ footer p:nth-child(2){
           background-size: auto 100%;
           background-position: center;
       }
+      .about img {
+        width: 100%;
+        max-width: 000px;
+        margin-bottom: 15px;
+      }
   }
 
 
